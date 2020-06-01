@@ -1,0 +1,54 @@
+#unix
+alias c='cat'
+alias le='less -j4'
+alias cpr='cp -ir'
+alias rr='rm -Rf'
+alias mn='mv -vn'
+alias v='nvim'
+ialias vi='nvim'
+alias vm='vifm'
+alias uz='unzip'
+alias uzl='unzip -l'
+alias tree3='tree -L 3'
+alias sz='source $HOME/.zshrc'
+
+ialias ls='exa -l --color=always --group-directories-first'
+ialias lt='exa -aT --color=always --group-directories-first'
+
+alias -g md='mkdir -p'
+alias -g wh='which'
+alias -g L='| less'
+alias -g H='| head'
+
+#git
+alias gs='git show'
+alias gt='git tag'
+alias gst='git status'
+alias gl='git log'
+alias gupd='git update'
+alias ggpusht='git push origin $(git_current_branch) --tags'
+alias ggpushf='git push origin $(git_current_branch) --force'
+alias ggpushtf='git push origin $(git_current_branch) --tags --force'
+alias ggpushft='git push origin $(git_current_branch) --tags --force'
+alias ggpull='git pull --rebase origin $(git_current_branch)'
+alias ggpp='git pull --rebase origin $(git_current_branch) && git push origin $(git_current_branch)'
+alias gg='git graph'
+alias gsts='git stash save'
+alias grget='git remote get-url origin'
+alias gpr='hub pull-request'
+alias gci='hub issue create'
+
+#python pyenv
+alias pac='pyenv activate'
+alias dac='pyenv deactivate'
+
+#suffix
+alias -s {pdf,PDF}='background mupdf'
+alias -s {jpg,JPG,png,PNG}='background gpicview'
+alias -s {ods,ODS,odt,ODT,odp,ODP,doc,DOC,docx,DOCX,xls,XLS,xlsx,XLSX,xlsm,XLSM,ppt,PPT,pptx,PPTX,csv,CSV}='background libreoffice'
+alias -s {html,HTML}='background chromium'
+alias -s {zip,ZIP,war,WAR}="unzip -l"
+alias -s {jar,JAR}="java -jar"
+alias -s gz="tar -tf"
+alias -s {tgz,TGZ}="tar -tf"
+
