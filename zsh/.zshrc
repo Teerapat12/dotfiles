@@ -1,5 +1,5 @@
-export ZSH=$HOME/.oh-my-zsh
-export ZSH_CUSTOM=$HOME/dotfiles/zsh/custom
+export ZSH=$HOME/git/oh-my-zsh
+export ZSH_CUSTOM=$HOME/git/dotfiles/zsh/custom
 
 ZSH_THEME="afowler"
 

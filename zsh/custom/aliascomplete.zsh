@@ -42,4 +42,4 @@ background() {
 bindkey " " expand-alias-space
 bindkey -M isearch " " magic-space
 
-source $HOME/dotfiles/.aliases
+source $HOME/git/dotfiles/.aliases
