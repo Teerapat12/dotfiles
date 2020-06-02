@@ -9,10 +9,10 @@ clear-ls-all(){
 }
 zle -N clear-ls-all
 
-#clear and display the current directory tree with level 3
+#clear and display the current directory tree with level 2
 clear-tree(){
 	clear
-	tree -L 3
+	tree -L 2
 	zle redisplay
 }
 zle -N clear-tree
@@ -25,5 +25,5 @@ function git_root() {
 zle -N git_root
 
 bindkey '^k' clear-ls-all
-bindkey '^t' clear-tree
+bindkey '^d' clear-tree
 bindkey '^h' git_root
