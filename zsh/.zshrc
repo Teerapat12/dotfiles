@@ -72,5 +72,4 @@ export FZF_DEFAULT_COMMAND='fd --type file --follow --hidden --exclude .git --co
 export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
 export FZF_PREVIEW_COMMAND="bat --style=numbers,changes --wrap never --color always {} || cat {} || tree -C {}"
 export FZF_DEFAULT_OPTS="--ansi --bind='ctrl-p:toggle-preview' --bind='ctrl-u:preview-page-up' --bind='ctrl-d:preview-page-down' --preview-window 'hidden:right:60%:noborder' --preview '($FZF_PREVIEW_COMMAND) 2> /dev/null'"
-export FZF_CTRL_T_OPTS="--min-height 30 --preview-window 'right:60%:noborder' --preview '($FZF_PREVIEW_COMMAND) 2> /dev/null'"
 

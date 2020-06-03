@@ -25,5 +25,5 @@ function git_root() {
 zle -N git_root
 
 bindkey '^k' clear-ls-all
-bindkey '^l' clear-tree
+bindkey '^j' clear-tree
 bindkey '^h' git_root
