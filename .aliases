@@ -1,5 +1,5 @@
 #unix
-alias c='cat'
+alias c='bat'
 alias le='less -j4'
 alias cpr='cp -ir'
 alias rr='rm -Rf'
@@ -9,7 +9,6 @@ ialias vi='nvim'
 alias vm='vifm'
 alias uz='unzip'
 alias uzl='unzip -l'
-alias tree3='tree -L 3'
 alias sz='source $HOME/.zshrc'
 
 ialias ls='exa -l --color=always --group-directories-first'
